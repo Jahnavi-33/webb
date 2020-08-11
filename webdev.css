@@ -1,0 +1,79 @@
+body{
+  font-family: montserrat;
+}
+header {
+  display :flex;
+  justify-content:space-between;
+  background-color: black;
+  color: whitesmoke;
+  padding: 8px;
+  margin: 5px 0px;
+  }
+form {
+  text-align: center;
+  justify-content: center;
+  }
+.box{
+  border: 1px solid black;
+}
+input{
+  padding-bottom: 2px;
+}
+footer{
+  background-color:black;
+  color: white;
+  align-content: center;
+}
+footer a{
+  color: azure;
+}
+navbar div{
+  justify-content: center;
+}
+navbar h1 {
+  text-align: center;
+  background-color: teal;
+}
+  
+article {
+ display: flex;
+ justify-content: space-around;
+}
+section {
+  background-color: darkseagreen;
+}
+section p {
+  justify-content: center;
+}
+section div {
+  color: black;
+}
+
+@media only screen and (max-width: 1024px) {
+ header:hover {
+   background-color: dimgray;
+ }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
